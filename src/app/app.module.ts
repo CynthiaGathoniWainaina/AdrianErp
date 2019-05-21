@@ -10,9 +10,11 @@ import {AngularFontAwesomeModule} from "angular-font-awesome";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectBoardsComponent } from './projects/project-boards/project-boards.component';
 import { ProjectDetailsComponent } from './projects/project-details/project-details.component';
+import {AppComponent} from "./app.component";
 
 @NgModule({
   declarations: [
+    AppComponent,
     LoginComponent,
     TaskListingComponent,
     TaskListingDetailedComponent,
@@ -28,6 +30,6 @@ import { ProjectDetailsComponent } from './projects/project-details/project-deta
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [LoginComponent]
+  bootstrap: [AppComponent,LoginComponent, ProjectDetailsComponent]
 })
 export class AppModule { }

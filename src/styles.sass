@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css"
+body
+  width: max-content
+
 
 h2
   font-family: Montserrat
@@ -15,28 +18,543 @@ h3
   font-family: Montserrat
   font-style: normal
   font-weight: normal
-  font-size: 15px
+  font-size: 13px
   line-height: 24px
   display: flex
   align-items: center
 
   color: #7D7D7D
 
-.nav-wrapper
-  position: absolute
-  display: block
-  z-index: 500
-  width: 100%
-  font-size: 16px
+/* Start of header */
+.right-panel
+  background: #f1f2f7
+  margin-left: 260px
+  margin-top: 55px
+  .right-panel .top-left
+    width: 350px
+    float: left
+  .right-panel .top-right
+    float: left
+  .right-panel .breadcrumbs
+    float: left
+    margin-top: 30px
+    padding: 0 1.875em
+    width: 100%
+    .right-panel .breadcrumbs .breadcrumbs-inner
+      background-color: #fff
+    .right-panel .breadcrumbs .col-lg-8 .page-header
+      float: left
+  .right-panel .page-header
+    min-height: 50px
+    margin: 0px
+    padding: 0px 15px
+    background: #ffffff
+    border-bottom: 0px
+    .right-panel .page-header h1
+      font-size: 18px
+      padding: 15px 0
+    .right-panel .page-header .breadcrumb
+      margin: 0px
+      padding: 13.5px 0
+      background: #fff
+      text-transform: capitalize
+    .right-panel .page-header .breadcrumb > li + li:before
+      padding: 0 5px
+      color: #ccc
+      content: "/\00a0"
+
+.right-panel header.header
   background: #fff
-  color: rgba(0,0,0,.54)
-  font-family: Montserrat
-  letter-spacing: 0
-  font-weight: 400
-  font-style: normal
-  -webkit-box-sizing: border-box
-  box-sizing: border-box
+  border-bottom: 1px solid #e8e9ed
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  clear: both
+  padding: 0 30px
+  height: 60px
+  position: fixed
+  left: 250px
+  right: 0
   top: 0
-  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3)
-  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3)
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3)
+  z-index: 999
+.right-panel .navbar-brand
+  width: 250px
+  display: inline-block
+.right-panel .menutoggle
+  padding-top: 7px
+.right-panel .navbar-header
+  width: 100%
+  background-color: #fff
+  padding: 0 1.25em 0 0
+  .right-panel .navbar-header > a
+    display: inline-block
+.right-panel .navbar-brand
+  line-height: 42px
+  .right-panel .navbar-brand img
+    max-width: 145px
+  .right-panel .navbar-brand.hidden
+    display: none
+
+.open .right-panel
+  margin-left: 83px
+.open .let-panel
+  z-index: 999
+
+header.fixed-top
+  background: #fff
+  padding: 20px
+
+.menutoggle
+  background-color: transparent
+  color: #99abb4 !important
+  cursor: pointer
+  font-size: 1em
+  height: 40px
+  line-height: 40px
+  width: 40px
+  display: block
+  text-align: right
+
+.search-trigger
+  background: transparent
+  border: none
+  color: #99abb4
+  cursor: pointer
+  font-size: 16px
+  line-height: 55px
+  padding: 0
+  width: 43px
+
+header .form-inline
+  background: #131c21
+  display: none
+  height: 55px
+  margin: 0
+  width: 100%
+  position: absolute
+  left: 0
+  top: 0
+  z-index: 9999
+  header .form-inline .search-form
+    height: 100%
+    max-width: 1025px
+    margin: 0 auto
+    position: relative
+    header .form-inline .search-form input[type="text"]
+      background: #131c21
+      border: none
+      border-radius: 0
+      -webkit-box-shadow: none
+        box-shadow: none
+      color: #d3d3d3
+      font-size: 16px
+      height: inherit
+      margin-right: 0 !important
+      padding: 10px 36px 10px 15px
+      width: 100%
+    header .form-inline .search-form input[type="text"].active,
+    header .form-inline .search-form input[type="text"]:focus
+      border-color: rgba(0, 0, 0, 0.125)
+      outline: 0
+    header .form-inline .search-form button
+      background: transparent
+      border: none
+      color: #fff
+      font-size: 16px
+      position: absolute
+      right: 15px
+      top: 50%
+      margin-top: -14px !important
+    header .form-inline .search-form button:active,
+    header .form-inline .search-form button:focus,
+    header .form-inline .search-form button:visited,
+    header .form-inline .search-form .btn-outline-success:hover
+      background: transparent
+      border: none !important
+      -webkit-box-shadow: none
+        box-shadow: none
+      outline: 0 !important
+    header .form-inline .search-form.close
+      display: none
+
+.header-left
+  display: inline-block
+  top: 20px
+
+
+.header-left.open .form-inline
+  display: block
+
+.header-left .dropdown
+  display: inline-block
+  .header-left .dropdown .dropdown-toggle
+    background: transparent
+    border: none
+    color: #99abb4
+    font-size: 16px
+    line-height: 55px
+    padding-top: 0
+    padding-bottom: 0
+    .header-left .dropdown .dropdown-toggle:after
+      display: none
+    .header-left .dropdown .dropdown-toggle .count
+      border-radius: 50%
+      color: #fff
+      font-size: 11px
+      height: 15px
+      width: 15px
+      line-height: 15px
+      right: 0
+      top: 12px
+      position: absolute
+    .header-left .dropdown .dropdown-toggle:active, .header-left .dropdown .dropdown-toggle:focus, .header-left .dropdown .dropdown-toggle:visited
+      background: none !important
+      border-color: transparent !important
+      color: #292b35 !important
+  .header-left .dropdown .dropdown-menu
+    background: #fff
+    border: none
+    border-radius: 0
+    -webkit-box-shadow: none
+      box-shadow: none
+    top: 52px !important
+    left: inherit !important
+    right: 0 !important
+    -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05)
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05)
+    line-height: 35px
+    .header-left .dropdown .dropdown-menu p
+      font-size: 15px
+      margin: 0
+      padding: 5px 15px
+    .header-left .dropdown .dropdown-menu .dropdown-item
+      color: #99abb4
+      font-size: 13px
+      padding: 10px 15px 3px
+      text-overflow: ellipsis
+      -webkit-transition: all .25s
+      transition: all .25s
+      .header-left .dropdown .dropdown-menu .dropdown-item:hover
+        background: rgba(233, 236, 239, 0.5)
+      .header-left .dropdown .dropdown-menu .dropdown-item .photo
+        float: left
+        margin-right: 15px
+        width: 25px
+      .header-left .dropdown .dropdown-menu .dropdown-item .message .name
+        margin-top: -5px
+      .header-left .dropdown .dropdown-menu .dropdown-item .message .time
+        font-size: 11px
+      .header-left .dropdown .dropdown-menu .dropdown-item .message p
+        clear: both
+        font-size: 14px
+        margin: 0
+        padding: 0
+        text-overflow: ellipsis
+
+.header-menu
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  margin: 0 10px
+  padding: .5rem 0 0
+  -webkit-box-pack: end
+    -ms-flex-pack: end
+    justify-content: flex-end
+
+.user-area .avatar
+  top: 23.94%
+  width: 30px
+  height: 30px
+  margin: -10px 10px
+  border-radius: 30%
+
+
+.user-area
+  float: right
+  padding-right: 0
+  position: relative
+  padding-left: 20px
+  .user-area .user-menu
+    background: #fff
+    border: none
+    left: inherit !important
+    right: 0
+    top: 54px !important
+    margin: 0
+    max-width: 150px
+    padding: 5px 10px
+    position: absolute
+    width: 100%
+    z-index: 999
+    min-width: 150px
+    -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05)
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05)
+    .user-area .user-menu .nav-link
+      color: #607d8b
+      display: block
+      font-size: 13px
+      line-height: 22px
+      padding: 5px 0
+      .user-area .user-menu .nav-link > i
+        margin-right: 10px
+  .user-area .user-avatar
+    float: right
+    width: 40px
+  .user-area .user-info .name
+    color: #8c8c8c
+    font-size: 14px
+    position: relative
+    text-transform: uppercase
+  .user-area .count
+    background: #d9534f
+    border-radius: 50%
+    color: #fff
+    font-family: 'Open Sans'
+    font-size: 9px
+    font-weight: 700
+    float: right
+    height: 20px
+    width: 20px
+    line-height: 20px
+    text-align: center
+  .user-area .dropdown-toggle
+    line-height: 55px
+    height: 55px
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+      -ms-flex-pack: center
+        justify-content: center
+    -webkit-box-align: center
+      -ms-flex-align: center
+        align-items: center
+    .user-area .dropdown-toggle:after
+      display: none
+
+/* End of header */
+
+/* Start of menu sidebar */
+.menu-sidebar
+  width: 250px
+  position: fixed
+  left: 0
+  top: 0
+  bottom: 0
+  background: #fff
+  overflow-y: auto
+
+
+.menu-sidebar .logo
+  font-family: Montserrat
+  font-size: 14px
+  background: #ffffff
+  height: 60px
+  padding: 0 25px
+  color: #1D1E56
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  border-right: 1px solid #e5e5e5
+  position: relative
+  z-index: 3
+
+.menu-sidebar .logo img
+  top: 10px
+  width: 30px
+  height: 30px
+  border-radius: 50%
+
+
+.menu-sidebar .navbar__list .navbar__sub-list
+  display: none
+  padding-left: 20px
+
+
+.menu-sidebar .navbar__list .navbar__sub-list li a
+  padding: 11.5px 0
+
+
+.menu-sidebar__content
+  font-family: Montserrat
+  font-size: 14px
+  margin: 10px
+  position: relative
+  height: -webkit-calc(100vh - 75px)
+  height: -moz-calc(100vh - 75px)
+  height: calc(100vh - 75px)
+
+
+.navbar-sidebar
+  padding: 35px
+  padding-bottom: 0
+
+
+.navbar-sidebar .navbar__list li
+  display: block
+  color: #555
+  font-size: 14px
+  padding: 15px 0
+  margin: 10px 0
+
+
+.navbar-sidebar .navbar__list li
+  margin-right: 19px
+  padding-top: 10px
+  top: 100px
+
+
+.navbar-sidebar .navbar__list li:hover
+  color: #4272d7
+  cursor: pointer
+
+.navbar-sidebar .navbar__list li.active > a
+  color: #4272d7
+
+.has-sub
+  position: relative
+
+/*End of menu sidebar*/
+
+.au-card
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  padding-right: 20px
+  height: fit-content
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  background: #fff
+  overflow: hidden
+  font-family: Montserrat
+  font-size: 9px
+
+
+.au-card--border
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  border-radius: 3px
+
+
+.au-card--border .au-card-title
+  -webkit-border-top-left-radius: 3px
+  -moz-border-radius-topleft: 3px
+  border-top-left-radius: 3px
+  -webkit-border-top-right-radius: 3px
+  -moz-border-radius-topright: 3px
+  border-top-right-radius: 3px
+
+
+.au-card--border .au-card-title .bg-overlay
+  -webkit-border-top-left-radius: 3px
+  -moz-border-radius-topleft: 3px
+  border-top-left-radius: 3px
+  -webkit-border-top-right-radius: 3px
+  -moz-border-radius-topright: 3px
+  border-top-right-radius: 3px
+
+
+.au-card-bordered
+  border: 1px solid #e5e5e5
+  background: #fff
+  padding: 40px
+  padding-top: 42px
+  padding-right: 10px
+  margin-bottom: 40px
+
+.au-card-inner
+  padding: 10px
+  padding-right: 5px
+  padding-bottom: 15px
+
+.au-card .image-card
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1)
+  padding-right: 20px
+  width: 70px
+  height: 60px
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  background: #fff
+  overflow: hidden
+  font-family: Montserrat
+  font-size: 9px
+
+.au-card .image-card img
+  top: 50px
+  width: 50px
+  height: 50px
+  border-radius: 100%
+
+.au-card-inner .progress
+  width: 200px
+  height: 5px
+
+.main-content
+  position: absolute
+  padding-left: 280px
+  padding-top: 30px
+  min-height: 100vh
+  margin-top: 30px
+
+@media (max-width: 991px)
+  main-content
+    padding-top: 20px
+
+.form-header
+  font-family: Montserrat
+  font-size: 13px
+.form-header input
+  width: 300px
+
+.page-add
+  display: inline-flex
+.page-add .btn
+  width: 145px
+  height: 30px
+  background: #9B59B6
+  border-color: #9B59B6
+  font-family: Montserrat
+  font-size: 13px
+  color: #ffffff
+  line-height: 17px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.page-container
+  background: #7D7D7D
+
+.nav-tabs li a
+  font-family: Montserrat
+  font-size: 12px
+  margin: 0px 30px 0px 0px
+  font-weight: bold
+  color: #1D1E56
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+  border-top: none
+  border-left: none
+  border-right: none
+  border-bottom: 3px solid #e9a39c
+
+
+.nav-tabs>li>a:hover
+  border: 1px solid transparent
+
+.nav>li>a:focus, .nav>li>a:hover
+  background-color: transparent
