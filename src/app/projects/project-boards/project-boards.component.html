@@ -75,9 +75,10 @@
             </div>
               </div>
         <div class="col-sm-12"><hr></div>
+
       <div class="container">
       <div class="row">
-        <div class="col-sm-3" *ngFor="let project of project$">
+        <a class="col-sm-3 project-details-link" *ngFor="let project of project$" routerLink="/project-details">
           <div class="au-card chart-percent-card">
             <div class="au-card-inner">
               <div class="au-card image-card">
@@ -117,7 +118,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </a>
 
           </div>
         </div>
