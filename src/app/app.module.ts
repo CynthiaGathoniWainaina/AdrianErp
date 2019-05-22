@@ -1,16 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import {AppRoutingModule, routing} from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { TaskListingComponent } from './task-listing/task-listing.component';
 import { TaskListingDetailedComponent } from './task-listing/task-listing-detailed/task-listing-detailed.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AngularFontAwesomeModule} from "angular-font-awesome";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectBoardsComponent } from './projects/project-boards/project-boards.component';
 import { ProjectDetailsComponent } from './projects/project-details/project-details.component';
 import {AppComponent} from "./app.component";
+import {HttpClientModule} from "@angular/common/http";
+import {AuthenticationServiceService} from "./shared/services/authentication-service.service";
+import {GetprojectsService} from "./shared/services/getprojects.service";
+import {FetchtasksService} from "./shared/services/fetchtasks.service";
 
 @NgModule({
   declarations: [
@@ -24,12 +28,16 @@ import {AppComponent} from "./app.component";
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     FormsModule,
     AngularFontAwesomeModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    routing
+
   ],
-  providers: [],
-  bootstrap: [AppComponent,LoginComponent, ProjectDetailsComponent]
+  providers: [AuthenticationServiceService,GetprojectsService,FetchtasksService],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
