@@ -1,122 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a7d23a-eb6d-4676-a8c2-06c7cfad0481" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adrian_Kenya.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adrian-erp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/angular-font-awesome.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/angular-font-awesome.es5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/angular-font-awesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/angular-font-awesome.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/bundles/angular-font-awesome.umd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/bundles/angular-font-awesome.umd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/src/angular-font-awesome.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/src/component/angular-font-awesome.component.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/dist/src/service/angular-font-awesome.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/angular-font-awesome.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/angular-font-awesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/angular-font-awesome.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/src/angular-font-awesome.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/src/angular-font-awesome.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/src/component/angular-font-awesome.component.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/src/component/angular-font-awesome.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/src/service/angular-font-awesome.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es2015/src/service/angular-font-awesome.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/angular-font-awesome.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/angular-font-awesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/angular-font-awesome.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/src/angular-font-awesome.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/src/angular-font-awesome.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/src/component/angular-font-awesome.component.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/src/component/angular-font-awesome.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/src/service/angular-font-awesome.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib-es5/src/service/angular-font-awesome.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/angular-font-awesome.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/component/angular-font-awesome.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/component/angular-font-awesome.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/component/angular-font-awesome.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/component/angular-font-awesome.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/service/angular-font-awesome.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/src/service/angular-font-awesome.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/tsconfig.es5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/tsconfig.lib.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/out-tsc/lib/typings.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/angular-font-awesome/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="e0a7d23a-eb6d-4676-a8c2-06c7cfad0481" name="Default Changelist" comment="Fetch projects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adrian-erp" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adrian-erp/src/shared/services/authentication-service.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/shared/services/authentication-service.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adrian-erp/src/shared/services/authentication-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/app/shared/services/authentication-service.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adrian-erp/src/styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/adrian-erp/src/styles.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -143,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1399">
-              <caret line="119" column="117" selection-start-line="119" selection-start-column="117" selection-end-line="119" selection-end-column="117" />
+            <state relative-caret-position="144">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -206,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adrian-erp/src/styles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="433" selection-start-line="433" selection-end-line="433" />
+            <state relative-caret-position="283">
+              <caret line="266" column="23" selection-start-line="266" selection-start-column="23" selection-end-line="266" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -308,12 +199,12 @@
         <option value="$PROJECT_DIR$/adrian-erp/node_modules/typescript/lib/lib.dom.d.ts" />
         <option value="$PROJECT_DIR$/adrian-erp/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.html" />
         <option value="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.sass" />
-        <option value="$PROJECT_DIR$/adrian-erp/src/styles.sass" />
         <option value="$PROJECT_DIR$/adrian-erp/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/adrian-erp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/adrian-erp/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.html" />
+        <option value="$PROJECT_DIR$/adrian-erp/src/styles.sass" />
       </list>
     </option>
   </component>
@@ -499,25 +390,40 @@
       <workItem from="1557919527390" duration="5886000" />
       <workItem from="1557935745680" duration="477000" />
       <workItem from="1557982759732" duration="27208000" />
-      <workItem from="1558332978155" duration="52815000" />
+      <workItem from="1558332978155" duration="57652000" />
     </task>
+    <task id="LOCAL-00001" summary="Fetch projects">
+      <created>1558511426548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558511426548</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Header changes">
+      <created>1558515357628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558515357628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102804000" />
+    <option name="totallyTimeSpent" value="107641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8134831" visible="true" weight="0.22374798" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974271" visible="true" weight="0.22374798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.18651685" side_tool="true" weight="0.18226601" />
+      <window_info id="Favorites" order="6" sideWeight="0.5025729" side_tool="true" weight="0.22374798" />
       <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293919" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -526,7 +432,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.3293919" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20136987" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20136987" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -576,6 +482,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fetch projects" />
+    <MESSAGE value="Header changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -752,20 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adrian-erp/src/styles.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adrian-erp/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -803,13 +700,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adrian-erp/src/app/projects/project-boards/project-boards.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1399">
-          <caret line="119" column="117" selection-start-line="119" selection-start-column="117" selection-end-line="119" selection-end-column="117" />
+        <state relative-caret-position="144">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adrian-erp/src/styles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="266" column="23" selection-start-line="266" selection-start-column="23" selection-end-line="266" selection-end-column="23" />
         </state>
       </provider>
     </entry>
