@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import {AppRoutingModule, routing} from './app-routing.module';
 import { LoginComponent } from './login/login.component';
-import { TaskListingComponent } from './task-listing/task-listing.component';
-import { TaskListingDetailedComponent } from './task-listing/task-listing-detailed/task-listing-detailed.component';
+import { TaskListingComponent } from './civilworks-team/task-listing.component';
+import { TaskListingDetailedComponent } from './civilworks-team/task-listing-detailed/task-listing-detailed.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AngularFontAwesomeModule} from "angular-font-awesome";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -15,6 +15,8 @@ import {HttpClientModule} from "@angular/common/http";
 import {AuthenticationServiceService} from "./shared/services/authentication-service.service";
 import {GetprojectsService} from "./shared/services/getprojects.service";
 import {FetchtasksService} from "./shared/services/fetchtasks.service";
+import { CommercialTeamComponent } from './commercial-team/commercial-team.component';
+import { ProcurementTeamComponent } from './procurement-team/procurement-team.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import {FetchtasksService} from "./shared/services/fetchtasks.service";
     TaskListingDetailedComponent,
     ProjectBoardsComponent,
     ProjectDetailsComponent,
+    CommercialTeamComponent,
+    ProcurementTeamComponent,
 
   ],
   imports: [
