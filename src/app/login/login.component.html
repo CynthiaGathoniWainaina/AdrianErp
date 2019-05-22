@@ -1,16 +1,30 @@
 <div class="container">
   <div class="account_wall">
-        <form class="form-signin">
+        <form class="form-signin" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
           <h2 class="title1">Welcome to the Adrian Erp</h2>
           <h3 class="title2">Login to your account</h3>
-          <input type="text" type="email" class="form-control" placeholder="Username/Email address" required="">
-          <input type="password" class="form-control" placeholder="Password" required="">
-          <button class="btn btn-md btn-outline-primary btn-block form-control" type="submit">Sign in</button>
+          <div class="alert alert-danger" *ngIf="loginError">
+            {{loginError}}
+          </div>
+          <input type="text" formControlName="username" class="form-control" placeholder="Username" required>
+          <div *ngIf="f.username.invalid && (f.username.dirty || f.username.touched)" class="error">
+            <div *ngIf="f.username.errors">Username is required.</div>
+          </div>
+          <input type="password" class="form-control" placeholder="Password" required>
+          <div *ngIf="f.password.invalid && (f.password.dirty || f.password.touched)" class="error">
+            <div *ngIf="f.password.errors">
+              Password is required.
+            </div>
+          </div>
+          <button class="btn btn-md btn-outline-primary btn-block form-control" type="submit"
+                 (click)="onSubmit()">Sign in</button>
           <label class="checkbox float-sm-left" id="remember">
           <input type="checkbox" value="remember-me">Remember me</label>
-          <a href="" class="float-sm-right need-help" id="forgot-password">Forgot Password? </a><span class="clearfix"></span>
+          <a href="" class="float-sm-right need-help" id="forgot-password">Forgot Password?
+          </a><span class="clearfix"></span>
 
         </form>
       </div>
+
 
 </div>
