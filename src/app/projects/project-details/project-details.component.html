@@ -1,8 +1,10 @@
 <!-- MENU SIDEBAR-->
 <aside class="menu-sidebar d-none d-lg-block">
+  <a href="/">
   <div class="logo">
     <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
   </div>
+  </a>
   <div class="menu-sidebar__content">
     <nav class="navbar-sidebar">
       <ul class="list-unstyled navbar__list">
@@ -52,7 +54,7 @@
         <div class="col-sm-8">
           <div class="page-header float-left">
             <div class="page-title">
-              <h2 class="title-1">Greenfield</h2>
+              <h2 class="title-1">Safaricom Project</h2>
               <h3 class="title-1">View tasks and documents related to this project</h3>
             </div>
           </div>
@@ -81,23 +83,49 @@
         </div><br>
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+
+          <div class="col-sm-4">
+              <div class="au-card team-card">
+                <div class="au-card-inner">
+                  <h3 class="title-2 tm-b-5">{{commercialteam}}</h3>
+                  <div class="chart-note-wrap">
+                    <div class="chart-note mr-0 d-block">
+                      <span class="dot dot--blue"></span>
+                      <span>2 tasks</span>
+                    </div>
+                    <div class="chart-note mr-0 d-flex justify-content-end">
+                      <span class="dot dot--blue"></span>
+                      <span>{{value}}%</span>
+                    </div>
+                    <div class="chart-note mr-0 d-block">
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{'background-color':'red','width':value+'%'}">
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        <div class="col-sm-4">
           <div class="au-card team-card">
             <div class="au-card-inner">
-              <h3 class="title-2 tm-b-5">Team name</h3>
+              <h3 class="title-2 tm-b-5">{{procurementteam}}</h3>
               <div class="chart-note-wrap">
                 <div class="chart-note mr-0 d-block">
                   <span class="dot dot--blue"></span>
-                  <span>10 tasks</span>
+                  <span>3 tasks</span>
                 </div>
                 <div class="chart-note mr-0 d-flex justify-content-end">
                   <span class="dot dot--blue"></span>
-                  <span>40%</span>
+                  <span>{{digit}}%</span>
                 </div>
                 <div class="chart-note mr-0 d-block">
                   <div class="progress">
                     <div class="progress-bar progress-bar-success"
-                         role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                         role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{'background-color':'green','width':digit+'%'}">
                     </div>
                   </div>
                 </div>
@@ -106,56 +134,35 @@
           </div>
         </div>
 
-        <div class="col-sm-3">
-          <div class="au-card team-card">
-            <div class="au-card-inner">
-              <h3 class="title-2 tm-b-5">Civil Works Team</h3>
-              <div class="chart-note-wrap">
-                <div class="chart-note mr-0 d-block">
-                  <span class="dot dot--blue"></span>
-                  <span>10 tasks</span>
-                </div>
-                <div class="chart-note mr-0 d-flex justify-content-end">
-                  <span class="dot dot--blue"></span>
-                  <span>40%</span>
-                </div>
-                <div class="chart-note mr-0 d-block">
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-success"
-                         role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="au-card team-card">
-            <div class="au-card-inner">
-              <h3 class="title-2 tm-b-5">Commercial Team</h3>
-              <div class="chart-note-wrap">
-                <div class="chart-note mr-0 d-block">
+        <div class="col-sm-4">
+            <div class="au-card team-card">
+              <div class="au-card-inner">
+                <h3 class="title-2 tm-b-5">{{civilteam}}</h3>
+                <div class="chart-note-wrap">
+                  <div class="chart-note mr-0 d-block">
                   <span class="dot dot--blue"></span>
-                  <span>10 tasks</span>
+                  <span>3 tasks</span>
                 </div>
                 <div class="chart-note mr-0 d-flex justify-content-end">
                   <span class="dot dot--blue"></span>
-                  <span>40%</span>
+                  <span>{{random}}%</span>
                 </div>
                 <div class="chart-note mr-0 d-block">
                   <div class="progress">
                     <div class="progress-bar progress-bar-success"
-                         role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                         role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{'background-color':'blue','width':random+'%'}">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-3">
+
+      </div>
+
+      <!-- <div class="col-sm-3">
+        <a routerLink="/teams/procurement" routerLinkActive="active">
           <div class="au-card team-card">
             <div class="au-card-inner">
               <h3 class="title-2 tm-b-5">Procurement Team</h3>
@@ -178,7 +185,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-
+        </a>
+    </div> -->
+  </div>

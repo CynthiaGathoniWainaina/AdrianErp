@@ -1,7 +1,7 @@
 <!-- MENU SIDEBAR-->
 <aside class="menu-sidebar d-none d-lg-block">
   <div class="logo">
-    <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
+      <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
   </div>
   <div class="menu-sidebar__content">
     <nav class="navbar-sidebar">
@@ -21,37 +21,29 @@
 <div class="page-container">
   <div id="right-panel" class="right-panel">
     <header id="header" class="header">
-      <div class="top-left">
-        <div class="navbar-header">
-          <div class="top-right">
-            <div class="header-menu float-right">
-              <div class="header-left">
-                <!--SEARCH HEADER-->
-                <button class="search-trigger"><i class="fa fa-search"></i></button>
-                <!--NOTIFICATIONS-->
-                <div class="dropdown for-notification">
-                  <i class="fa fa-bell"></i>
+                  <div class="col-sm-8 search-header">
+                  <form class="form-header form-inline float-left" role="search" action="" method="get">
+                    <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
+                    <button class="search-trigger"><i class="fa fa-search"></i></button>
+                  </form>
+                  </div>
+                <div class="col-sm-4 nav-links">
+                <ul class="navbar-nav ml-auto nav-flex-icons" id="nav-links">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                </ul>
                 </div>
-                <!--MESSAGES-->
-                <div class="dropdown for-message">
-                  <i class="fa fa-envelope"></i>
-                </div>
-              </div>
               <!--ACCOUNT-->
-              <div class="header-left user-area dropdown float-right">
-                <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img class="avatar rounded-circle" src="assets/images/avatar2.png" alt="Avatar">
-                </a>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </header>
   </div>
   <!--END OF HEADER -->
-</div>
 
 <div class="main-content">
   <div class="section__content section__content--p30">
@@ -91,18 +83,18 @@
         <!--Team Tabs-->
         <div class="row">
           <div class="col-sm-2">
-          <button class="team-tabs btn btn-outline-primary">Civil Works Team</button>
+          <button class="team-tabs btn btn-outline-primary">{{team}}</button>
           </div>
           <div class="col-sm-2">
-            <button class="team-tabs btn btn-outline-primary"  >Civil Works Team</button>
+            <button class="team-tabs btn btn-outline-primary">{{team}}</button>
 
           </div>
           <div class="col-sm-2">
-            <button class="team-tabs btn btn-outline-primary">Civil Works Team</button>
+            <button class="team-tabs btn btn-outline-primary">{{team}}</button>
 
           </div>
           <div class="col-sm-2">
-            <button class="team-tabs btn btn-outline-primary">Civil Works Team</button>
+            <button class="team-tabs btn btn-outline-primary">{{team}}</button>
 
           </div>
         </div>
@@ -126,13 +118,14 @@
         <!--tasks-->
         <div class="col-sm-12"><hr></div>
         <div class="container container-tasks">
+
         <div class="row row-tasks">
           <div class="chart-note-wrap">
           <div class="col-sm-12">
             <div class="au-card task-card">
               <div class="au-card-inner">
                 <div class="col-sm-2">
-                <h3 class="title-2 tm-b-5">Team name</h3>
+                <h3 class="title-2 tm-b-5">{{team}}</h3>
                 </div>
                   <div class="col-sm-2">
                   <div class="chart-note mr-0 d-block">
@@ -165,9 +158,7 @@
                     </div>
                   </div>
                 <div class="col-sm-2">
-                <div class="user-area dropdown float-right">
-                    <img class="avatar rounded-circle" src="assets/images/avatar2.png" alt="Avatar">
-                </div>
+
                 </div>
                 </div>
               </div>
@@ -179,7 +170,7 @@
                 <div class="au-card task-card">
                   <div class="au-card-inner">
                     <div class="col-sm-2">
-                      <h3 class="title-2 tm-b-5">Team name</h3>
+                      <h3 class="title-2 tm-b-5">{{team}}</h3>
                     </div>
                     <div class="col-sm-2">
                       <div class="chart-note mr-0 d-block">
@@ -212,9 +203,7 @@
                       </div>
                     </div>
                     <div class="col-sm-2">
-                      <div class="user-area dropdown float-right">
-                        <img class="avatar rounded-circle" src="assets/images/avatar2.png" alt="Avatar">
-                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -226,7 +215,7 @@
                   <div class="au-card task-card">
                     <div class="au-card-inner">
                       <div class="col-sm-2">
-                        <h3 class="title-2 tm-b-5">Team name</h3>
+                        <h3 class="title-2 tm-b-5">{{team}}</h3>
                       </div>
                       <div class="col-sm-2">
                         <div class="chart-note mr-0 d-block">
@@ -259,9 +248,7 @@
                         </div>
                       </div>
                       <div class="col-sm-2">
-                        <div class="user-area dropdown float-right">
-                          <img class="avatar rounded-circle" src="assets/images/avatar2.png" alt="Avatar">
-                        </div>
+
                       </div>
                     </div>
                   </div>
@@ -272,7 +259,7 @@
                     <div class="au-card task-card">
                       <div class="au-card-inner">
                         <div class="col-sm-2">
-                          <h3 class="title-2 tm-b-5">Team name</h3>
+                          <h3 class="title-2 tm-b-5">{{team}}</h3>
                         </div>
                         <div class="col-sm-2">
                           <div class="chart-note mr-0 d-block">
@@ -305,29 +292,28 @@
                           </div>
                         </div>
                         <div class="col-sm-2">
-                          <div class="user-area dropdown float-right">
-                            <img class="avatar rounded-circle" src="assets/images/avatar2.png" alt="Avatar">
-                          </div>
+
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><br>
-          <div class="chart-note-wrap">
-            <div class="col-sm-12">
-              <div class="au-card task-card">
-                <div class="au-card-inner">
+                </div>
+                <br><br>
+
+                <div class="chart-note-wrap">
                   <div class="col-sm-12">
-                    <i class="fa fa-plus" aria-hidden="true"></i>Add task
+                    <div class="au-card task-card">
+                      <div class="au-card-inner">
+                        <div class="col-sm-12">
+                          <i class="fa fa-plus" aria-hidden="true"></i>Add task
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-    </div>
-
-</div>
-</div>
-</div>
         </div>
       </div>
+    </div>

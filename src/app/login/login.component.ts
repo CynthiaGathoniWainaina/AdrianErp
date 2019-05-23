@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
-import {ActivatedRoute, Router} from "@angular/router";
-import {first} from "rxjs/operators";
-import {AuthenticationServiceService} from "../shared/services/authentication-service.service";
+import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {ActivatedRoute, Router} from '@angular/router';
+import {first} from 'rxjs/operators';
+import {AuthenticationServiceService} from '../shared/services/authentication-service.service';
 
 @Component({
   selector: 'app-login',
@@ -14,8 +14,6 @@ export class LoginComponent implements OnInit {
   loginForm: FormGroup;
   submitted = false;
   returnUrl: string;
-  error: {};
-  loginError: string;
 
 
   constructor(
@@ -23,7 +21,11 @@ export class LoginComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private authService: AuthenticationServiceService
-  ) { }
+  ) {
+    if (this.authService.currentUserValue) {
+      this.router.navigate(['/']);
+    }
+   }
 
   ngOnInit() {
     this.loginForm = this.fb.group({
@@ -33,11 +35,9 @@ export class LoginComponent implements OnInit {
 
     // get return url from route parameters or default to '/'
     this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
-    this.authService.logout();
-
 
   }
-  get f() { return this.loginForm.controls }
+  get f() { return this.loginForm.controls; }
 
   onSubmit() {
     this.submitted = true;
@@ -46,10 +46,9 @@ export class LoginComponent implements OnInit {
     }
     this.authService.login(this.f.username.value, this.f.password.value)
       .pipe(first())
-      .subscribe (data=>{
-        this.router.navigate(['/projects']);
+      .subscribe (data => {
+        this.router.navigate(['this.returnUrl']);
       },
-        error => this.error = error
       );
   }
 }

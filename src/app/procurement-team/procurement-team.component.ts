@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProcurementTeamComponent implements OnInit {
 
+  team = 'Procurement Team';
   constructor() { }
 
   ngOnInit() {
