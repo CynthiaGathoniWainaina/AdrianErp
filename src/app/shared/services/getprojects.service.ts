@@ -9,6 +9,7 @@ export class GetprojectsService {
   apiUrl = 'http://68.183.79.24/projects/';
 
   constructor(private http: HttpClient) { }
+
   getProjects() {
     return this.http.get<Project[]>(this.apiUrl);
   }

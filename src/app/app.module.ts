@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule, routing } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { TaskListingComponent } from './civilworks-team/task-listing.component';
 import { TaskListingDetailedComponent } from './civilworks-team/task-listing-detailed/task-listing-detailed.component';
@@ -28,7 +28,6 @@ import { ProcurementTeamComponent } from './procurement-team/procurement-team.co
     ProjectDetailsComponent,
     CommercialTeamComponent,
     ProcurementTeamComponent,
-
   ],
   imports: [
     BrowserModule,
@@ -38,8 +37,6 @@ import { ProcurementTeamComponent } from './procurement-team/procurement-team.co
     AngularFontAwesomeModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    routing
-
   ],
   providers: [AuthenticationServiceService, GetprojectsService, FetchtasksService],
   bootstrap: [AppComponent]
