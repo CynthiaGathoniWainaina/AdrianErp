@@ -1,8 +1,9 @@
 <div class="container">
   <div class="account_wall">
 
-    <h2>Login</h2>
-    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="form-signin">
+      <h2>Login</h2>
         <div class="form-group">
             <label for="username">Username</label>
             <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />

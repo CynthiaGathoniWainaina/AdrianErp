@@ -7,12 +7,14 @@ import { CommercialTeamComponent } from './commercial-team/commercial-team.compo
 import { ProcurementTeamComponent } from './procurement-team/procurement-team.component';
 import { TaskListingComponent } from './civilworks-team/task-listing.component';
 import { AuthGuardGuard } from './shared/guards/auth-guard.guard';
+import {CreateProjectComponent} from "./projects/create-project/create-project.component";
 
 const routes: Routes = [
   {path: '', component: ProjectBoardsComponent },
   {path: 'login', component: LoginComponent },
   {path: 'teams', component: ProjectDetailsComponent },
   {path: 'tasks', component: TaskListingComponent },
+  {path: 'create', component: CreateProjectComponent },
   {path: 'teams/commercial',  component: CommercialTeamComponent},
   {path: 'teams/procurement', component: ProcurementTeamComponent},
   {path: '**', redirectTo: ''}

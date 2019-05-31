@@ -17,6 +17,7 @@ import { GetprojectsService } from './shared/services/getprojects.service';
 import { FetchtasksService } from './shared/services/fetchtasks.service';
 import { CommercialTeamComponent } from './commercial-team/commercial-team.component';
 import { ProcurementTeamComponent } from './procurement-team/procurement-team.component';
+import { CreateProjectComponent } from './projects/create-project/create-project.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ProcurementTeamComponent } from './procurement-team/procurement-team.co
     ProjectDetailsComponent,
     CommercialTeamComponent,
     ProcurementTeamComponent,
+    CreateProjectComponent,
 
   ],
   imports: [

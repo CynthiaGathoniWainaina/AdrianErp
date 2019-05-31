@@ -1,8 +1,5 @@
 <!-- MENU SIDEBAR-->
 <aside class="menu-sidebar d-none d-lg-block">
-  <div class="logo">
-      <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
-  </div>
   <div class="menu-sidebar__content">
     <nav class="navbar-sidebar">
       <ul class="list-unstyled navbar__list">
@@ -15,12 +12,15 @@
     </nav>
   </div>
 </aside>
-<!-- END MENU SIDEBAR-->
 
+<!-- END MENU SIDEBAR-->
 <!--HEADER-->
 <div class="page-container">
   <div id="right-panel" class="right-panel">
     <header id="header" class="header">
+      <span class="logo">
+        <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
+      </span>
                   <div class="col-sm-8 search-header">
                   <form class="form-header form-inline float-left" role="search" action="" method="get">
                     <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
@@ -78,7 +78,7 @@
 
       <div class="container">
       <div class="row">
-        <a class="col-sm-6 project-details-link" *ngFor="let project of project$" routerLink="/teams">
+        <a class="col-sm-3 project-details-link" *ngFor="let project of project$" routerLink="/teams">
           <div class="au-card chart-percent-card">
             <div class="au-card-inner">
               <div class="au-card image-card">

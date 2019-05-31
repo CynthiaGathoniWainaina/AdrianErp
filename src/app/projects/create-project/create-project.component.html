@@ -1,0 +1,131 @@
+
+<!--HEADER-->
+<div class="page-container">
+  <div id="right-panel" class="right-panel">
+    <header id="header" class="header">
+      <span class="logo">
+        <img src="assets/images/index.jpeg" alt="logo"/><span class="main-title">Adrian Kenya ERP</span>
+      </span>
+      <div class="col-sm-8 search-header">
+        <form class="form-header form-inline float-left" role="search" action="" method="get">
+          <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
+          <button class="search-trigger"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="col-sm-4 nav-links">
+        <ul class="navbar-nav ml-auto nav-flex-icons" id="nav-links">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false"><i class="fa fa-user"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--ACCOUNT-->
+    </header>
+  </div>
+  <!--END OF HEADER -->
+  <div class="container">
+    <form action="" role="form" class="form-signin">
+      <input id='step2' type='checkbox'>
+      <input id='step3' type='checkbox'>
+
+      <div id="part1" class="form-group">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Project Details</h3>
+          </div>
+          <input type="text" class="form-control" placeholder="Project Name" aria-describedby="sizing-addon1">
+          <input type="text" class="form-control" placeholder="Site number" aria-describedby="sizing-addon1">
+          <input type="text" class="form-control" placeholder="BTS Type" aria-describedby="sizing-addon1">
+          <input type="text" class="form-control" placeholder="Site Owner" aria-describedby="sizing-addon1">
+          <div class="btn-group btn-group-lg" role="group" aria-label="...">
+            <label for='step2' id="continue-step2" class="continue">
+              <div class="btn btn-default btn-lg btn-continue pull-right">Continue <i class="fa fa-arrow-right"></i>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div id="part2" class="form-group">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Upload Documents</h3>
+          </div>
+          <div class="upload-documents">
+          <div class="upload-file col-sm-12">
+          <label for="geotech" class="upload-labels">Upload Geotech File</label>
+            <input type="file" class="form-control-file" id="geotech">
+          </div>
+            <div class="upload-file col-sm-12">
+            <label for="access" class="upload-labels">Upload Access Letter</label>
+              <input type="file" class="form-control-file" id="access">
+            </div>
+            <!--Final Acceptance
+            <div class="upload-file col-sm-12">
+            <label for="acceptance" class="upload-labels">Upload Final Acceptance Letter</label>
+              <input type="file" class="form-control-file" id="acceptance"><br>
+            <textarea id="message" class="form-control-message" placeholder="Final Acceptance letter comment"></textarea>
+            </div>-->
+            <div class="upload-file col-sm-12">
+            <label for="drawing" class="upload-labels">Upload Approved Drawing</label>
+           <input type="file" class="form-control-file" id="drawing">
+            </div>
+            <div class="row">
+            <label for='step2' id="back-step2" class="back">
+              <div class="btn btn-default btn-lg btn-back col-xs-6" role="button">
+                <i class="fa fa-arrow-left"></i>Back</div>
+            </label>
+
+            <label for='step3' id="continue-step3" class="continue">
+              <div class="btn btn-default btn-lg btn-continue col-xs-6" role="button">Continue
+                <i class="fa fa-arrow-right"></i>
+              </div>
+            </label>
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+      <div id="part3" class="form-group">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Additional Information</h3>
+          </div>
+          <div class="upload-documents">
+            <div class="upload-file col-sm-12">
+              <label for="icon" class="upload-labels">Upload Icon</label>
+              <input type="file" class="form-control-file" id="icon">
+           <input type="image" class="form-control-file" src="" alt="" width="100">
+            </div>
+            <div class="upload-file col-sm-12">
+            <select class="form-control-file form-control-sm" id="location">
+            <option>Location</option>
+          </select>
+            </div>
+            <div class="upload-file col-sm-12">
+            <input type="text" id="createdby" class="form-control-file" placeholder="Created By" aria-describedby="sizing-addon1">
+            </div>
+
+          <div class="btn-group btn-group-lg" role="group" aria-label="...">
+            <label for='step3' id="back-step3" class="back">
+              <div class="btn btn-default btn-lg btn-back col-xs-6" role="button">
+                <i class="fa fa-arrow-left"></i>Back</div>
+            </label>
+            <label class="continue">
+              <button type="submit" class="btn btn-default btn-submit">Submit</button>
+            </label>
+          </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

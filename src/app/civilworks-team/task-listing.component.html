@@ -1,8 +1,5 @@
 <!-- MENU SIDEBAR-->
 <aside class="menu-sidebar d-none d-lg-block">
-  <div class="logo">
-      <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
-  </div>
   <div class="menu-sidebar__content">
     <nav class="navbar-sidebar">
       <ul class="list-unstyled navbar__list">
@@ -15,37 +12,40 @@
     </nav>
   </div>
 </aside>
-<!-- END MENU SIDEBAR-->
 
+<!-- END MENU SIDEBAR-->
 <!--HEADER-->
 <div class="page-container">
   <div id="right-panel" class="right-panel">
     <header id="header" class="header">
-                  <div class="col-sm-8 search-header">
-                  <form class="form-header form-inline float-left" role="search" action="" method="get">
-                    <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
-                    <button class="search-trigger"><i class="fa fa-search"></i></button>
-                  </form>
-                  </div>
-                <div class="col-sm-4 nav-links">
-                <ul class="navbar-nav ml-auto nav-flex-icons" id="nav-links">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-                </ul>
-                </div>
-              <!--ACCOUNT-->
+      <span class="logo">
+        <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
+      </span>
+      <div class="col-sm-8 search-header">
+        <form class="form-header form-inline float-left" role="search" action="" method="get">
+          <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
+          <button class="search-trigger"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="col-sm-4 nav-links">
+        <ul class="navbar-nav ml-auto nav-flex-icons" id="nav-links">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--ACCOUNT-->
     </header>
   </div>
   <!--END OF HEADER -->
 
-<div class="main-content">
+  <div class="main-content">
   <div class="section__content section__content--p30">
     <div class="container">
       <div class="row m-0">
@@ -79,9 +79,11 @@
           </div>
         </div>
       </div><br>
-      <div class="container">
+
+
         <!--Team Tabs-->
-        <div class="row">
+      <div class="container">
+        <div class="row row-tabs">
           <div class="col-sm-2">
           <button class="team-tabs btn btn-outline-primary">{{team}}</button>
           </div>
@@ -98,9 +100,11 @@
 
           </div>
         </div>
+
         <!--search and filter-->
+        <div class="container">
         <div class="row m-0">
-          <div class="col-sm-8">
+          <div class="col-sm-8 float-left">
             <form class="form-header form-inline" role="search" action="" method="get">
               <input class="au-input au-input--sm" type="text" name="search" placeholder="Search for a project"/>
               <button class="search-trigger"><i class="fa fa-search"></i></button>
@@ -114,11 +118,11 @@
             </div>
           </div>
         </div>
+        </div>
+        <div class="col-sm-12"><hr></div>
 
         <!--tasks-->
-        <div class="col-sm-12"><hr></div>
         <div class="container container-tasks">
-
         <div class="row row-tasks">
           <div class="chart-note-wrap">
           <div class="col-sm-12">
@@ -298,22 +302,21 @@
                     </div>
                   </div>
                 </div>
-                <br><br>
-
-                <div class="chart-note-wrap">
+          <div class="chart-note-wrap">
+            <div class="col-sm-12">
+              <div class="au-card task-card">
+                <div class="au-card-inner">
                   <div class="col-sm-12">
-                    <div class="au-card task-card">
-                      <div class="au-card-inner">
-                        <div class="col-sm-12">
-                          <i class="fa fa-plus" aria-hidden="true"></i>Add task
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <span><i class="fa fa-plus" aria-hidden="true"></i>Add taskdfkjndfbgdfsjdbfjksdfbsdfsdbf</span>
                 </div>
+                </div>
+              </div>
               </div>
             </div>
           </div>
         </div>
+        </div>
       </div>
     </div>
+  </div>
+</div>
