@@ -6,7 +6,7 @@ import { Project } from '../models/project';
   providedIn: 'root'
 })
 export class GetprojectsService {
-  apiUrl = 'http://68.183.79.24/projects/';
+  apiUrl = 'http://68.183.79.24/erp_construction/projects/';
 
   constructor(private http: HttpClient) { }
 

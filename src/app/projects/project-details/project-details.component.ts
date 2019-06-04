@@ -34,10 +34,6 @@ export class ProjectDetailsComponent implements OnInit {
    this.taskThreeProgress();
   }
 
-  getOneProject(id: number) {
-    return this.getProjectsService.getProjects()
-    .subscribe(data => this.item = data.id === id);
-  }
   taskOneProgress() {
     return this.taskProgressService.getTaskOneProgress()
     .subscribe(data => this.value = data.progress);

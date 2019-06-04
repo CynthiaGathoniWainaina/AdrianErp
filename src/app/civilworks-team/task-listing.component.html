@@ -46,40 +46,39 @@
   <!--END OF HEADER -->
 
   <div class="main-content">
-  <div class="section__content section__content--p30">
-    <div class="container">
-      <div class="row m-0">
-        <div class="col-sm-8">
-          <div class="page-header float-left">
-            <div class="page-title">
-              <h2 class="title-1">Greenfield</h2>
-              <h3 class="title-1">View tasks and documents related to this project</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="content-section-c">
-        <div class="container">
-          <div class="row-lg-12">
-            <div class="tabbable">
-              <ul class="nav nav-tabs">
-                <li class="active"><a href="#pane1" data-toggle="tab">Tasks</a></li>
-                <li><a href="#pane2" data-toggle="tab">Schedule</a></li>
-                <li><a href="#pane3" data-toggle="tab">Catch Up</a></li>
-                <li><a href="#pane4" data-toggle="tab">Files</a></li>
-              </ul>
-              <div class="tab-content">
-                <div id="pane1" class="tab-pane active">
-                </div>
-                <!-- /.container -->
+    <div class="section__content section__content--p30">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-sm-8">
+            <div class="page-header float-left">
+              <div class="page-title">
+                <h2 class="title-1">Greenfield</h2>
+                <h3 class="title-1">View tasks and documents related to this project</h3>
               </div>
-              <!-- /.content-section-c -->
             </div>
           </div>
         </div>
-      </div><br>
 
+        <div class="content-section-c">
+          <div class="container">
+            <div class="row-lg-12">
+              <div class="tabbable">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href="#pane1" data-toggle="tab">Tasks</a></li>
+                  <li><a href="#pane2" data-toggle="tab">Schedule</a></li>
+                  <li><a href="#pane3" data-toggle="tab">Catch Up</a></li>
+                  <li><a href="#pane4" data-toggle="tab">Files</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div id="pane1" class="tab-pane active">
+                  </div>
+                  <!-- /.container -->
+                </div>
+                <!-- /.content-section-c -->
+              </div>
+            </div>
+          </div>
+        </div><br>
 
         <!--Team Tabs-->
       <div class="container">
@@ -100,9 +99,10 @@
 
           </div>
         </div>
+      </div>
 
         <!--search and filter-->
-        <div class="container">
+        <div class="container-search">
         <div class="row m-0">
           <div class="col-sm-8 float-left">
             <form class="form-header form-inline" role="search" action="" method="get">
@@ -129,7 +129,7 @@
             <div class="au-card task-card">
               <div class="au-card-inner">
                 <div class="col-sm-2">
-                <h3 class="title-2 tm-b-5">{{team}}</h3>
+                <span class="title-2 tm-b-5">{{team}}</span>
                 </div>
                   <div class="col-sm-2">
                   <div class="chart-note mr-0 d-block">
@@ -174,7 +174,7 @@
                 <div class="au-card task-card">
                   <div class="au-card-inner">
                     <div class="col-sm-2">
-                      <h3 class="title-2 tm-b-5">{{team}}</h3>
+                      <span class="title-2 tm-b-5">{{team}}</span>
                     </div>
                     <div class="col-sm-2">
                       <div class="chart-note mr-0 d-block">
@@ -219,7 +219,7 @@
                   <div class="au-card task-card">
                     <div class="au-card-inner">
                       <div class="col-sm-2">
-                        <h3 class="title-2 tm-b-5">{{team}}</h3>
+                        <span class="title-2 tm-b-5">{{team}}</span>
                       </div>
                       <div class="col-sm-2">
                         <div class="chart-note mr-0 d-block">
@@ -263,7 +263,7 @@
                     <div class="au-card task-card">
                       <div class="au-card-inner">
                         <div class="col-sm-2">
-                          <h3 class="title-2 tm-b-5">{{team}}</h3>
+                          <span class="title-2 tm-b-5">{{team}}</span>
                         </div>
                         <div class="col-sm-2">
                           <div class="chart-note mr-0 d-block">
@@ -308,7 +308,7 @@
               <div class="au-card task-card">
                 <div class="au-card-inner">
                   <div class="col-sm-12">
-                  <span><i class="fa fa-plus" aria-hidden="true"></i>Add tasks</span>
+                    <div class="add-task"><i class="fa fa-plus" aria-hidden="true"></i>Add tasks</div>
                 </div>
                 </div>
               </div>
@@ -320,4 +320,4 @@
       </div>
     </div>
   </div>
-</div>
+
