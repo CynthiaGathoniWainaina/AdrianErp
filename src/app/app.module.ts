@@ -18,6 +18,10 @@ import { FetchtasksService } from './shared/services/fetchtasks.service';
 import { CommercialTeamComponent } from './commercial-team/commercial-team.component';
 import { ProcurementTeamComponent } from './procurement-team/procurement-team.component';
 import { CreateProjectComponent } from './projects/create-project/create-project.component';
+import { CommercialTeamFormsComponent } from './commercial-team/commercial-team-forms/commercial-team-forms.component';
+import { ApprovedQuoteFormComponent } from './commercial-team/commercial-team-forms/approved-quote-form/approved-quote-form.component';
+import { PoFormComponent } from './commercial-team/commercial-team-forms/po-form/po-form.component';
+import { ProofFormComponent } from './commercial-team/commercial-team-forms/proof-form/proof-form.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,10 @@ import { CreateProjectComponent } from './projects/create-project/create-project
     CommercialTeamComponent,
     ProcurementTeamComponent,
     CreateProjectComponent,
+    CommercialTeamFormsComponent,
+    ApprovedQuoteFormComponent,
+    PoFormComponent,
+    ProofFormComponent,
 
 
   ],

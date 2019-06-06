@@ -7,8 +7,12 @@ import { CommercialTeamComponent } from './commercial-team/commercial-team.compo
 import { ProcurementTeamComponent } from './procurement-team/procurement-team.component';
 import { TaskListingComponent } from './civilworks-team/task-listing.component';
 import { AuthGuardGuard } from './shared/guards/auth-guard.guard';
-import {CreateProjectComponent} from "./projects/create-project/create-project.component";
-import {TaskListingDetailedComponent} from "./civilworks-team/task-listing-detailed/task-listing-detailed.component";
+import {CreateProjectComponent} from './projects/create-project/create-project.component';
+import {TaskListingDetailedComponent} from './civilworks-team/task-listing-detailed/task-listing-detailed.component';
+import {CommercialTeamFormsComponent} from './commercial-team/commercial-team-forms/commercial-team-forms.component';
+import {ApprovedQuoteFormComponent} from './commercial-team/commercial-team-forms/approved-quote-form/approved-quote-form.component';
+import {PoFormComponent} from './commercial-team/commercial-team-forms/po-form/po-form.component';
+import {ProofFormComponent} from './commercial-team/commercial-team-forms/proof-form/proof-form.component';
 
 const routes: Routes = [
   {path: '', component: ProjectBoardsComponent },
@@ -18,6 +22,10 @@ const routes: Routes = [
   {path: 'task-details', component: TaskListingDetailedComponent},
   {path: 'create', component: CreateProjectComponent },
   {path: 'teams/commercial',  component: CommercialTeamComponent},
+  {path: 'teams/commercialforms/project-costing',  component: CommercialTeamFormsComponent},
+  {path: 'teams/commercialforms/approved-quote', component: ApprovedQuoteFormComponent},
+  {path: 'teams/commercialforms/po', component: PoFormComponent},
+  {path: 'teams/commercialforms/proof', component: ProofFormComponent},
   {path: 'teams/procurement', component: ProcurementTeamComponent},
   {path: '**', redirectTo: ''}
 ];
