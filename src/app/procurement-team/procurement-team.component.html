@@ -1,8 +1,5 @@
 <!-- MENU SIDEBAR-->
 <aside class="menu-sidebar d-none d-lg-block">
-  <div class="logo">
-      <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
-  </div>
   <div class="menu-sidebar__content">
     <nav class="navbar-sidebar">
       <ul class="list-unstyled navbar__list">
@@ -15,305 +12,166 @@
     </nav>
   </div>
 </aside>
-<!-- END MENU SIDEBAR-->
 
+<!-- END MENU SIDEBAR-->
 <!--HEADER-->
 <div class="page-container">
   <div id="right-panel" class="right-panel">
     <header id="header" class="header">
-                  <div class="col-sm-8 search-header">
-                  <form class="form-header form-inline float-left" role="search" action="" method="get">
-                    <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
-                    <button class="search-trigger"><i class="fa fa-search"></i></button>
-                  </form>
-                  </div>
-                <div class="col-sm-4 nav-links">
-                <ul class="navbar-nav ml-auto nav-flex-icons" id="nav-links">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-                </ul>
-                </div>
-              <!--ACCOUNT-->
+      <span class="logo">
+        <img src="assets/images/index.jpeg" alt="logo" /><span class="main-title">Adrian Kenya ERP</span>
+      </span>
+      <div class="col-sm-8 search-header">
+        <form class="form-header form-inline float-left" role="search" action="" method="get">
+          <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
+          <button class="search-trigger"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="col-sm-4 nav-links">
+        <ul class="navbar-nav ml-auto nav-flex-icons" id="nav-links">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--ACCOUNT-->
     </header>
   </div>
   <!--END OF HEADER -->
 
-<div class="main-content">
-  <div class="section__content section__content--p30">
-    <div class="container">
-      <div class="row m-0">
-        <div class="col-sm-8">
-          <div class="page-header float-left">
-            <div class="page-title">
-              <h2 class="title-1">Greenfield</h2>
-              <h3 class="title-1">View tasks and documents related to this project</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="content-section-c">
-        <div class="container">
-          <div class="row-lg-12">
-            <div class="tabbable">
-              <ul class="nav nav-tabs">
-                <li class="active"><a href="#pane1" data-toggle="tab">Tasks</a></li>
-                <li><a href="#pane2" data-toggle="tab">Schedule</a></li>
-                <li><a href="#pane3" data-toggle="tab">Catch Up</a></li>
-                <li><a href="#pane4" data-toggle="tab">Files</a></li>
-              </ul>
-              <div class="tab-content">
-                <div id="pane1" class="tab-pane active">
-                </div>
-                <!-- /.container -->
-              </div>
-              <!-- /.content-section-c -->
-            </div>
-          </div>
-        </div>
-      </div><br>
+  <div class="main-content">
+    <div class="section__content section__content--p30">
       <div class="container">
-        <!--Team Tabs-->
-        <div class="row">
-          <div class="col-sm-2">
-          <button class="team-tabs btn btn-outline-primary">{{team}}</button>
-          </div>
-          <div class="col-sm-2">
-            <button class="team-tabs btn btn-outline-primary">{{team}}</button>
-
-          </div>
-          <div class="col-sm-2">
-            <button class="team-tabs btn btn-outline-primary">{{team}}</button>
-
-          </div>
-          <div class="col-sm-2">
-            <button class="team-tabs btn btn-outline-primary">{{team}}</button>
-
-          </div>
-        </div>
-        <!--search and filter-->
         <div class="row m-0">
           <div class="col-sm-8">
-            <form class="form-header form-inline" role="search" action="" method="get">
-              <input class="au-input au-input--sm" type="text" name="search" placeholder="Search for a project"/>
-              <button class="search-trigger"><i class="fa fa-search"></i></button>
-            </form>
-          </div>
-          <div class="col-sm-4">
-            <div class="page-header float-right">
-              <div class="page-add">
-                <button class="btn btn-outline-primary" id="new-project">Sort By:</button>
+            <div class="page-header float-left">
+              <div class="page-title">
+                <h2 class="title-1">Greenfield</h2>
+                <h3 class="title-1">View tasks and documents related to this project</h3>
               </div>
             </div>
           </div>
         </div>
 
-        <!--tasks-->
-        <div class="col-sm-12"><hr></div>
-        <div class="container container-tasks">
-
-        <div class="row row-tasks">
-          <div class="chart-note-wrap">
-          <div class="col-sm-12">
-            <div class="au-card task-card">
-              <div class="au-card-inner">
-                <div class="col-sm-2">
-                <h3 class="title-2 tm-b-5">{{team}}</h3>
+        <div class="content-section-c">
+          <div class="container">
+            <div class="row-lg-12">
+              <div class="tabbable">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href="#pane1" data-toggle="tab">Tasks</a></li>
+                  <li><a href="#pane2" data-toggle="tab">Schedule</a></li>
+                  <li><a href="#pane3" data-toggle="tab">Catch Up</a></li>
+                  <li><a href="#pane4" data-toggle="tab">Files</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div id="pane1" class="tab-pane active">
+                  </div>
+                  <!-- /.container -->
                 </div>
-                  <div class="col-sm-2">
-                  <div class="chart-note mr-0 d-block">
-                    <span class="dot dot--blue"></span>
-                    <span>10 tasks</span>
-                  </div>
-                  </div>
-                  <div class="col-sm-2">
-                  <div class="chart-note mr-0 d-block">
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-success"
-                           role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                      </div>
-                    </div>
-                    <div class="chart-note mr-0 d-flex">
-                      <span class="dot dot--blue"></span>
-                      <span>40%</span>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="col-sm-2">
-                    <div class="chart-note mr-0 d-block">
-                    <span class="dot dot--blue"></span>
-                    <span>May 21, 2018-May 30, 2018</span>
-                  </div>
-                  </div>
-                  <div class="col-sm-2">
-                    <div class="chart-note mr-0 d-block">
-                      <button class="team-tabs btn btn-outline-primary">Status</button>
-                    </div>
-                  </div>
-                <div class="col-sm-2">
-
-                </div>
-                </div>
+                <!-- /.content-section-c -->
               </div>
             </div>
           </div>
+        </div><br>
+
+        <div class="row m-0">
+          <div class="col-sm-8">
+            <div class="page-header float-left">
+              <div class="page-title">
+                <h2 class="title-1">Procurement team tasks</h2>
+                <h3 class="title-1">In the procurement team board</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Team Tabs-->
+        <div class="container-tabs">
+          <div class="row row-tabs">
+            <div class="col-sm-2">
+              <a routerLink="/teams/commercialforms/project-costing"><button class="team-tabs btn btn-outline-primary">Upload Steel Costs</button></a>
+            </div>
+            <div class="col-sm-2">
+              <a routerLink="/teams/commercialforms/approved-quote"><button class="team-tabs btn btn-outline-primary">Upload Electrical Material Costs</button></a>
+
+            </div>
+            <div class="col-sm-2">
+              <a routerLink="/teams/commercialforms/po"><button class="team-tabs btn btn-outline-primary">Upload Subcontractors Cost</button></a>
+
+            </div>
+            <div class="col-sm-2">
+              <a routerLink="/teams/commercialforms/proof"><button class="team-tabs btn btn-outline-primary">Approval</button></a>
+
+            </div>
+          </div>
+        </div>
+        <div class="container-tasks">
+          <div class="row row-tasks">
+            <div class="chart-note-wrap">
+              <div class="col-sm-12">
+                <div class="au-card task-card">
+                  <div class="au-card-inner block">
+                    <div class="add"><i class="fa fa-plus"> </i> Add a task item</div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div class="chart-note-wrap">
               <div class="col-sm-12">
                 <div class="au-card task-card">
-                  <div class="au-card-inner">
-                    <div class="col-sm-2">
-                      <h3 class="title-2 tm-b-5">{{team}}</h3>
-                    </div>
-                    <div class="col-sm-2">
-                      <div class="chart-note mr-0 d-block">
-                        <span class="dot dot--blue"></span>
-                        <span>10 tasks</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-2">
-                      <div class="chart-note mr-0 d-block">
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-success"
-                               role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                          </div>
-                        </div>
-                        <div class="chart-note mr-0 d-flex">
-                          <span class="dot dot--blue"></span>
-                          <span>40%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-2">
-                      <div class="chart-note mr-0 d-block">
-                        <span class="dot dot--blue"></span>
-                        <span>May 21, 2018-May 30, 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-2">
-                      <div class="chart-note mr-0 d-block">
-                        <button class="team-tabs btn btn-outline-primary">Status</button>
-                      </div>
-                    </div>
-                    <div class="col-sm-2">
+                  <div class="au-card-inner block">
+                    <form action="">
+                      <input type="checkbox" name="task" value="task"> Steel Costing<br>
+                    </form>
 
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-              <div class="chart-note-wrap">
-                <div class="col-sm-12">
-                  <div class="au-card task-card">
-                    <div class="au-card-inner">
-                      <div class="col-sm-2">
-                        <h3 class="title-2 tm-b-5">{{team}}</h3>
-                      </div>
-                      <div class="col-sm-2">
-                        <div class="chart-note mr-0 d-block">
-                          <span class="dot dot--blue"></span>
-                          <span>10 tasks</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-2">
-                        <div class="chart-note mr-0 d-block">
-                          <div class="progress">
-                            <div class="progress-bar progress-bar-success"
-                                 role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                            </div>
-                          </div>
-                          <div class="chart-note mr-0 d-flex">
-                            <span class="dot dot--blue"></span>
-                            <span>40%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-2">
-                        <div class="chart-note mr-0 d-block">
-                          <span class="dot dot--blue"></span>
-                          <span>May 21, 2018-May 30, 2018</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-2">
-                        <div class="chart-note mr-0 d-block">
-                          <button class="team-tabs btn btn-outline-primary">Status</button>
-                        </div>
-                      </div>
-                      <div class="col-sm-2">
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-                <div class="chart-note-wrap">
-                  <div class="col-sm-12">
-                    <div class="au-card task-card">
-                      <div class="au-card-inner">
-                        <div class="col-sm-2">
-                          <h3 class="title-2 tm-b-5">{{team}}</h3>
-                        </div>
-                        <div class="col-sm-2">
-                          <div class="chart-note mr-0 d-block">
-                            <span class="dot dot--blue"></span>
-                            <span>10 tasks</span>
-                          </div>
-                        </div>
-                        <div class="col-sm-2">
-                          <div class="chart-note mr-0 d-block">
-                            <div class="progress">
-                              <div class="progress-bar progress-bar-success"
-                                   role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                              </div>
-                            </div>
-                            <div class="chart-note mr-0 d-flex">
-                              <span class="dot dot--blue"></span>
-                              <span>40%</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-2">
-                          <div class="chart-note mr-0 d-block">
-                            <span class="dot dot--blue"></span>
-                            <span>May 21, 2018-May 30, 2018</span>
-                          </div>
-                        </div>
-                        <div class="col-sm-2">
-                          <div class="chart-note mr-0 d-block">
-                            <button class="team-tabs btn btn-outline-primary">Status</button>
-                          </div>
-                        </div>
-                        <div class="col-sm-2">
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <br><br>
-
-                <div class="chart-note-wrap">
-                  <div class="col-sm-12">
-                    <div class="au-card task-card">
-                      <div class="au-card-inner">
-                        <div class="col-sm-12">
-                          <i class="fa fa-plus" aria-hidden="true"></i>Add task
-                        </div>
-                      </div>
-                    </div>
+            <div class="chart-note-wrap">
+              <div class="col-sm-12">
+                <div class="au-card task-card">
+                  <div class="au-card-inner block">
+                    <form action="">
+                      <input type="checkbox" name="task" value="task"> Electrical Materials Costing<br>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="chart-note-wrap">
+              <div class="col-sm-12">
+                <div class="au-card task-card">
+                  <div class="au-card-inner block">
+                    <form action="">
+                      <input type="checkbox" name="task" value="task"> Subcontractors Costing<br>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chart-note-wrap">
+              <div class="col-sm-12">
+                <div class="au-card task-card">
+                  <div class="au-card-inner block">
+                    <form action="">
+                      <input type="checkbox" name="task" value="task"> Approval<br>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>

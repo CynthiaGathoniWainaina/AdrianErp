@@ -22,6 +22,10 @@ import { CommercialTeamFormsComponent } from './commercial-team/commercial-team-
 import { ApprovedQuoteFormComponent } from './commercial-team/commercial-team-forms/approved-quote-form/approved-quote-form.component';
 import { PoFormComponent } from './commercial-team/commercial-team-forms/po-form/po-form.component';
 import { ProofFormComponent } from './commercial-team/commercial-team-forms/proof-form/proof-form.component';
+import { SteelCostFormComponent } from './procurement-team/procurement-team-forms/steel-cost-form/steel-cost-form.component';
+import { ElectricalMaterialCostFormComponent } from './procurement-team/procurement-team-forms/electrical-material-cost-form/electrical-material-cost-form.component';
+import { SubcontractorsFormComponent } from './procurement-team/procurement-team-forms/subcontractors-form/subcontractors-form.component';
+import { ApprovalFormComponent } from './procurement-team/procurement-team-forms/approval-form/approval-form.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +42,10 @@ import { ProofFormComponent } from './commercial-team/commercial-team-forms/proo
     ApprovedQuoteFormComponent,
     PoFormComponent,
     ProofFormComponent,
+    SteelCostFormComponent,
+    ElectricalMaterialCostFormComponent,
+    SubcontractorsFormComponent,
+    ApprovalFormComponent,
 
 
   ],
