@@ -1,0 +1,329 @@
+<!-- MENU SIDEBAR-->
+<aside class="menu-sidebar d-none d-lg-block">
+  <div class="menu-sidebar__content">
+    <nav class="navbar-sidebar">
+      <ul class="list-unstyled navbar__list">
+        <li class="active">Projects</li>
+        <li>Tasks</li>
+        <li>Monitoring</li>
+        <li>Scorecard</li>
+        <li>Calendar</li>
+      </ul>
+    </nav>
+  </div>
+</aside>
+
+<!-- END MENU SIDEBAR-->
+<!--HEADER-->
+<div class="page-container">
+  <div id="right-panel" class="right-panel">
+    <header id="header" class="header">
+      <span class="logo">
+        <img src="assets/images/index.jpeg" alt="logo"/><span class="main-title">Adrian Kenya ERP</span>
+      </span>
+      <div class="col-sm-8 search-header">
+        <form class="form-header form-inline float-left" role="search" action="" method="get">
+          <input class="au-input au-input--sm" type="text" name="search" placeholder="Find anything"/>
+          <button class="search-trigger"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="col-sm-4 nav-links">
+        <ul class="navbar-nav ml-auto nav-flex-icons" id="nav-links">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false"><i class="fa fa-user"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-unique" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--ACCOUNT-->
+    </header>
+  </div>
+  <!--END OF HEADER -->
+
+
+  <div class="main-content">
+    <div class="section__content section__content--p30">
+      <div class="container-title">
+        <div class="row m-0">
+          <div class="col-sm-12">
+            <div class="page-header float-left">
+              <div class="page-title">
+                <h1 class="title-1">Monitoring</h1>
+                <h4 class="title-1">Track high level data metrics in real time</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12"><hr></div>
+
+      <div class="container-charts">
+        <div class="row">
+          <div class="au-card chart-percent-card col-sm-2">
+          <div class="au-card-inner">
+            <h2 class="title-2 tm-b-5">Task Status</h2>
+            <h3 class="title-3 tm-b-5">Site under construction</h3>
+            <div class="chart-note-wrap">
+              <div class="canvas-holder">
+                  <label class="chart-title">Total</label>
+                  <label class="chart-desc">205 sites</label>
+                  <canvas baseChart width="400" height="400"
+                          [colors]="chartColors"
+                          [options]="doughnutChartOptions"
+                          [data]="doughnutChartData"
+                          [labels]="doughnutChartLabels"
+                          [chartType]="doughnutChartType">
+                  </canvas>
+              </div>
+
+
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Open: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div><br>
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Closed: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="au-card chart-percent-card col-sm-2">
+          <div class="au-card-inner">
+            <h2 class="title-2 tm-b-5">Issue Status</h2>
+            <h3 class="title-3 tm-b-5">Risks affecting closure per site</h3>
+            <div class="chart-note-wrap">
+              <div class="canvas-holder">
+                <label class="chart-title">Total</label>
+                <label class="chart-desc">205 sites</label>
+                <canvas baseChart width="400" height="400"
+                        [colors]="chartColors"
+                        [options]="doughnutChartOptions"
+                        [data]="doughnutChartData"
+                        [labels]="doughnutChartLabels"
+                        [chartType]="doughnutChartType">
+                </canvas>
+              </div>
+
+
+              <div class="chart-note mr-0 d-flex">
+                <span class="dot dot--blue"></span>
+                <span class="fetched-data">Open: </span>
+              </div>
+              <div class="chart-note mr-0 d-block">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                  </div>
+                </div>
+              </div><br>
+              <div class="chart-note mr-0 d-flex">
+                <span class="dot dot--blue"></span>
+                <span class="fetched-data">Closed: </span>
+              </div>
+              <div class="chart-note mr-0 d-block">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="au-card chart-percent-card col-sm-2">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Timesheet Summary</h2>
+              <h3 class="title-3 tm-b-5">CA and FA to be invoiced</h3>
+              <div class="chart-note-wrap">
+                <div class="canvas-holder">
+                  <label class="chart-title">Total</label>
+                  <label class="chart-desc">205 sites</label>
+                  <canvas baseChart width="400" height="400"
+                          [colors]="chartColors"
+                          [options]="doughnutChartOptions"
+                          [data]="doughnutChartData"
+                          [labels]="doughnutChartLabels"
+                          [chartType]="doughnutChartType">
+                  </canvas>
+                </div>
+
+
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Open: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div><br>
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Closed: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+          </div>
+
+          <div class="au-card chart-percent-card col-sm-2">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Milestone Status</h2>
+              <h3 class="title-3 tm-b-5">Sites accepted by the client</h3>
+              <div class="chart-note-wrap">
+                <div class="canvas-holder">
+                  <label class="chart-title">Total</label>
+                  <label class="chart-desc">205 sites</label>
+                  <canvas baseChart width="400" height="400"
+                          [colors]="chartColors"
+                          [options]="doughnutChartOptions"
+                          [data]="doughnutChartData"
+                          [labels]="doughnutChartLabels"
+                          [chartType]="doughnutChartType">
+                  </canvas>
+                </div>
+
+
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Open: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div><br>
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Closed: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <div class="container-othercharts">
+        <div class="row">
+          <div class="au-card au-bar col-sm-5">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Budget Status</h2>
+              <h3 class="title-3 tm-b-5">Track budget and manage work proactively</h3>
+                <div style="display: block; width: 400px ">
+                  <canvas baseChart
+                          [datasets]="barChartData"
+                          [labels]="barChartLabels"
+                          [options]="barChartOptions"
+                          [legend]="barChartLegend"
+                          [chartType]="barChartType"
+                          [colors]="chartColors" >
+                  </canvas>
+
+                </div>
+            </div>
+          </div>
+
+          <div class="au-card chart-percent-card col-sm-5">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Overdue work items</h2>
+              <h3 class="title-3 tm-b-5">View work items that are past their due date</h3>
+
+              <div class="container-overdue-tasks">
+                <div class="row row-overdue-tasks">
+                  <div class="chart-note-wrap">
+                    <div class="col-sm-12">
+                      <div class="au-card task-card">
+                        <div class="au-card-inner">
+                          <form action="">
+                            <i class="fa fa-circle"></i> Excavation<br>
+                            <span class="float-right">40 Days Late</span>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="chart-note-wrap">
+                    <div class="col-sm-12">
+                      <div class="au-card task-card">
+                        <div class="au-card-inner">
+                          <form action="">
+                            <i class="fa fa-circle"></i> Final Acceptance<br>
+                          </form>
+                          <span class="float-right">40 Days Late</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="chart-note-wrap">
+                    <div class="col-sm-12">
+                      <div class="au-card task-card">
+                        <div class="au-card-inner">
+                          <form action="">
+                            <i class="fa fa-circle"></i> Procurement<br>
+                          </form>
+                          <span class="float-right">40 Days Late</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="chart-note-wrap">
+                    <div class="col-sm-12">
+                      <div class="au-card task-card">
+                        <div class="au-card-inner block">
+                          <form action="">
+                            <i class="fa fa-plus"></i>View all 21 items<br>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

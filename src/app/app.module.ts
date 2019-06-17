@@ -26,6 +26,8 @@ import { SteelCostFormComponent } from './procurement-team/procurement-team-form
 import { ElectricalMaterialCostFormComponent } from './procurement-team/procurement-team-forms/electrical-material-cost-form/electrical-material-cost-form.component';
 import { SubcontractorsFormComponent } from './procurement-team/procurement-team-forms/subcontractors-form/subcontractors-form.component';
 import { ApprovalFormComponent } from './procurement-team/procurement-team-forms/approval-form/approval-form.component';
+import { MonitoringComponent } from './monitoring/monitoring.component';
+import {ChartsModule} from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,7 @@ import { ApprovalFormComponent } from './procurement-team/procurement-team-forms
     ElectricalMaterialCostFormComponent,
     SubcontractorsFormComponent,
     ApprovalFormComponent,
+    MonitoringComponent
 
 
   ],
@@ -57,6 +60,7 @@ import { ApprovalFormComponent } from './procurement-team/procurement-team-forms
     AngularFontAwesomeModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    ChartsModule
   ],
   providers: [AuthenticationServiceService, GetprojectsService, FetchtasksService],
   bootstrap: [AppComponent]
