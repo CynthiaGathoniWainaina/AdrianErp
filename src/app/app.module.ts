@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
-import { TaskListingComponent } from './civilworks-team/task-listing.component';
-import { TaskListingDetailedComponent } from './civilworks-team/task-listing-detailed/task-listing-detailed.component';
+import { TaskListingComponent } from './tasks/task-listing.component';
+import { TaskListingDetailedComponent } from './tasks/task-listing-detailed/task-listing-detailed.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -28,6 +28,11 @@ import { SubcontractorsFormComponent } from './procurement-team/procurement-team
 import { ApprovalFormComponent } from './procurement-team/procurement-team-forms/approval-form/approval-form.component';
 import { MonitoringComponent } from './monitoring/monitoring.component';
 import {ChartsModule} from 'ng2-charts';
+import { CivilworksTasksComponent } from './civilworks-team/civilworks-tasks/civilworks-tasks.component';
+import { TowerfoundationSubtasksComponent } from './civilworks-team/towerfoundation-subtasks/towerfoundation-subtasks.component';
+import { Bs241SubtasksComponent } from './civilworks-team/bs241-subtasks/bs241-subtasks.component';
+import { BoundarywallSubtasksComponent } from './civilworks-team/boundarywall-subtasks/boundarywall-subtasks.component';
+import { AntennaSubtasksComponent } from './civilworks-team/antenna-subtasks/antenna-subtasks.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +53,12 @@ import {ChartsModule} from 'ng2-charts';
     ElectricalMaterialCostFormComponent,
     SubcontractorsFormComponent,
     ApprovalFormComponent,
-    MonitoringComponent
+    MonitoringComponent,
+    CivilworksTasksComponent,
+    TowerfoundationSubtasksComponent,
+    Bs241SubtasksComponent,
+    BoundarywallSubtasksComponent,
+    AntennaSubtasksComponent
 
 
   ],
