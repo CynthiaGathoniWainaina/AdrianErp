@@ -23,6 +23,9 @@ import {AntennaSubtasksComponent} from "./civilworks-team/antenna-subtasks/anten
 import {TowerfoundationSubtasksComponent} from "./civilworks-team/towerfoundation-subtasks/towerfoundation-subtasks.component";
 import {BoundarywallSubtasksComponent} from "./civilworks-team/boundarywall-subtasks/boundarywall-subtasks.component";
 import {Bs241SubtasksComponent} from "./civilworks-team/bs241-subtasks/bs241-subtasks.component";
+import {InstallationTeamComponent} from "./installation-team/installation-team.component";
+import {ElectricalSubtasksComponent} from "./installation-team/installationteam-subtasks/electrical-subtasks/electrical-subtasks.component";
+import {BtsSubtasksComponent} from "./installation-team/installationteam-subtasks/bts-subtasks/bts-subtasks.component";
 
 const routes: Routes = [
   {path: '', component: ProjectBoardsComponent },
@@ -46,6 +49,9 @@ const routes: Routes = [
   {path: 'teams/civilworks/subtasks/bs241', component: Bs241SubtasksComponent},
   {path: 'teams/civilworks/subtasks/boundary', component: BoundarywallSubtasksComponent},
   {path: 'teams/civilworks/subtasks/antenna', component: AntennaSubtasksComponent},
+  {path: 'teams/installation/tasks', component: InstallationTeamComponent},
+  {path: 'teams/installation/subtasks/electrical', component: ElectricalSubtasksComponent},
+  {path: 'teams/installation/subtasks/bts', component: BtsSubtasksComponent},
   {path: 'monitoring', component: MonitoringComponent},
   {path: '**', redirectTo: ''}
 ];

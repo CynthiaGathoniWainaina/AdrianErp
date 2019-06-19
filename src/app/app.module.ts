@@ -33,6 +33,11 @@ import { TowerfoundationSubtasksComponent } from './civilworks-team/towerfoundat
 import { Bs241SubtasksComponent } from './civilworks-team/bs241-subtasks/bs241-subtasks.component';
 import { BoundarywallSubtasksComponent } from './civilworks-team/boundarywall-subtasks/boundarywall-subtasks.component';
 import { AntennaSubtasksComponent } from './civilworks-team/antenna-subtasks/antenna-subtasks.component';
+import {SidebarModule} from "ng-sidebar";
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { InstallationTeamComponent } from './installation-team/installation-team.component';
+import { ElectricalSubtasksComponent } from './installation-team/installationteam-subtasks/electrical-subtasks/electrical-subtasks.component';
+import { BtsSubtasksComponent } from './installation-team/installationteam-subtasks/bts-subtasks/bts-subtasks.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +63,11 @@ import { AntennaSubtasksComponent } from './civilworks-team/antenna-subtasks/ant
     TowerfoundationSubtasksComponent,
     Bs241SubtasksComponent,
     BoundarywallSubtasksComponent,
-    AntennaSubtasksComponent
+    AntennaSubtasksComponent,
+    SidebarComponent,
+    InstallationTeamComponent,
+    ElectricalSubtasksComponent,
+    BtsSubtasksComponent
 
 
   ],
@@ -70,7 +79,8 @@ import { AntennaSubtasksComponent } from './civilworks-team/antenna-subtasks/ant
     AngularFontAwesomeModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    ChartsModule
+    ChartsModule,
+    SidebarModule
   ],
   providers: [AuthenticationServiceService, GetprojectsService, FetchtasksService],
   bootstrap: [AppComponent]
