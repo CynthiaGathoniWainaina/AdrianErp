@@ -1,0 +1,142 @@
+
+<div class="page-container">
+  <div class="main-content">
+    <div class="section__content section__content--p30">
+      <div class="container-title">
+        <div class="row m-0">
+          <div class="col-sm-12">
+            <div class="page-header float-left">
+              <div class="page-title">
+                <h1 class="title-1">Scorecard</h1>
+                <h4 class="title-1">Track performance and progress across different projects</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12"><hr></div>
+
+      <div class="container-charts">
+        <div class="row">
+          <div class="au-card chart-percent-card col-sm-2">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Revenue</h2>
+              <hr>
+              <div class="chart-note-wrap">
+                <span class="detail">Ksh. 3,000,000</span>
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">On track: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div><br>
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Off track: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar-off" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <span class="summary">View detailed summary  <i class="fa fa-arrow-right"></i></span>
+                <br>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="au-card chart-percent-card col-sm-2">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Project TAT</h2>
+              <hr>
+              <div class="chart-note-wrap">
+                <span class="detail2">24 days</span>
+              </div>
+              <hr>
+              <span class="summary">View detailed summary  <i class="fa fa-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <div class="au-card chart-percent-card col-sm-2">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Purchase Orders</h2>
+              <hr>
+              <div class="chart-note-wrap">
+                <span class="detail">87 POs</span>
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">On track: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                </div><br>
+                <div class="chart-note mr-0 d-flex">
+                  <span class="dot dot--blue"></span>
+                  <span class="fetched-data">Off track: </span>
+                </div>
+                <div class="chart-note mr-0 d-block">
+                  <div class="progress">
+                    <div class="progress-bar-off" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                  </div>
+                  <hr>
+                  <span class="summary">View detailed summary  <i class="fa fa-arrow-right"></i></span>
+                </div>
+                <br>
+              </div>
+            </div>
+          </div>
+
+          <div class="au-card chart-percent-card col-sm-2">
+            <div class="au-card-inner">
+              <h2 class="title-2 tm-b-5">Site Rework</h2>
+              <hr>
+              <div class="chart-note-wrap">
+                <span class="detail2">11%</span>
+                <br>
+              </div>
+              <hr>
+              <span class="summary">View detailed summary  <i class="fa fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-othercharts">
+          <div class="row">
+            <div class="au-card au-bar col-sm-12">
+              <div class="au-card-inner">
+                <h2 class="title-2 tm-b-5">Revenue Forecast</h2>
+                <div style="display: block; width: 400px ">
+                  <canvas baseChart
+                          [datasets]="barChartData"
+                          [labels]="barChartLabels"
+                          [options]="barChartOptions"
+                          [legend]="barChartLegend"
+                          [chartType]="barChartType"
+                          [colors]="chartColors" >
+                  </canvas>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

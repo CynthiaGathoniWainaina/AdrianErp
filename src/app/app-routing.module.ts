@@ -26,6 +26,7 @@ import {Bs241SubtasksComponent} from "./civilworks-team/bs241-subtasks/bs241-sub
 import {InstallationTeamComponent} from "./installation-team/installation-team.component";
 import {ElectricalSubtasksComponent} from "./installation-team/installationteam-subtasks/electrical-subtasks/electrical-subtasks.component";
 import {BtsSubtasksComponent} from "./installation-team/installationteam-subtasks/bts-subtasks/bts-subtasks.component";
+import {ScorecardComponent} from "./scorecard/scorecard.component";
 
 const routes: Routes = [
   {path: '', component: ProjectBoardsComponent },
@@ -53,6 +54,7 @@ const routes: Routes = [
   {path: 'teams/installation/subtasks/electrical', component: ElectricalSubtasksComponent},
   {path: 'teams/installation/subtasks/bts', component: BtsSubtasksComponent},
   {path: 'monitoring', component: MonitoringComponent},
+  {path: 'scorecard', component: ScorecardComponent},
   {path: '**', redirectTo: ''}
 ];
 

@@ -38,6 +38,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { InstallationTeamComponent } from './installation-team/installation-team.component';
 import { ElectricalSubtasksComponent } from './installation-team/installationteam-subtasks/electrical-subtasks/electrical-subtasks.component';
 import { BtsSubtasksComponent } from './installation-team/installationteam-subtasks/bts-subtasks/bts-subtasks.component';
+import { ScorecardComponent } from './scorecard/scorecard.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { BtsSubtasksComponent } from './installation-team/installationteam-subta
     SidebarComponent,
     InstallationTeamComponent,
     ElectricalSubtasksComponent,
-    BtsSubtasksComponent
+    BtsSubtasksComponent,
+    ScorecardComponent
 
 
   ],
