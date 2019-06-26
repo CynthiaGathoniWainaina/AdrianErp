@@ -18,15 +18,15 @@ import {ElectricalMaterialCostFormComponent} from './procurement-team/procuremen
 import {SubcontractorsFormComponent} from './procurement-team/procurement-team-forms/subcontractors-form/subcontractors-form.component';
 import {ApprovalFormComponent} from './procurement-team/procurement-team-forms/approval-form/approval-form.component';
 import {MonitoringComponent} from './monitoring/monitoring.component';
-import {CivilworksTasksComponent} from "./civilworks-team/civilworks-tasks/civilworks-tasks.component";
-import {AntennaSubtasksComponent} from "./civilworks-team/antenna-subtasks/antenna-subtasks.component";
-import {TowerfoundationSubtasksComponent} from "./civilworks-team/towerfoundation-subtasks/towerfoundation-subtasks.component";
-import {BoundarywallSubtasksComponent} from "./civilworks-team/boundarywall-subtasks/boundarywall-subtasks.component";
-import {Bs241SubtasksComponent} from "./civilworks-team/bs241-subtasks/bs241-subtasks.component";
-import {InstallationTeamComponent} from "./installation-team/installation-team.component";
-import {ElectricalSubtasksComponent} from "./installation-team/installationteam-subtasks/electrical-subtasks/electrical-subtasks.component";
-import {BtsSubtasksComponent} from "./installation-team/installationteam-subtasks/bts-subtasks/bts-subtasks.component";
-import {ScorecardComponent} from "./scorecard/scorecard.component";
+import {CivilworksTasksComponent} from './civilworks-team/civilworks-tasks/civilworks-tasks.component';
+import {AntennaSubtasksComponent} from './civilworks-team/antenna-subtasks/antenna-subtasks.component';
+import {TowerfoundationSubtasksComponent} from './civilworks-team/towerfoundation-subtasks/towerfoundation-subtasks.component';
+import {BoundarywallSubtasksComponent} from './civilworks-team/boundarywall-subtasks/boundarywall-subtasks.component';
+import {Bs241SubtasksComponent} from './civilworks-team/bs241-subtasks/bs241-subtasks.component';
+import {InstallationTeamComponent} from './installation-team/installation-team.component';
+import {ElectricalSubtasksComponent} from './installation-team/installationteam-subtasks/electrical-subtasks/electrical-subtasks.component';
+import {BtsSubtasksComponent} from './installation-team/installationteam-subtasks/bts-subtasks/bts-subtasks.component';
+import {ScorecardComponent} from './scorecard/scorecard.component';
 
 const routes: Routes = [
   {path: '', component: ProjectBoardsComponent },

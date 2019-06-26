@@ -33,12 +33,14 @@ import { TowerfoundationSubtasksComponent } from './civilworks-team/towerfoundat
 import { Bs241SubtasksComponent } from './civilworks-team/bs241-subtasks/bs241-subtasks.component';
 import { BoundarywallSubtasksComponent } from './civilworks-team/boundarywall-subtasks/boundarywall-subtasks.component';
 import { AntennaSubtasksComponent } from './civilworks-team/antenna-subtasks/antenna-subtasks.component';
-import {SidebarModule} from "ng-sidebar";
+import {SidebarModule} from 'ng-sidebar';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { InstallationTeamComponent } from './installation-team/installation-team.component';
+// tslint:disable-next-line:max-line-length
 import { ElectricalSubtasksComponent } from './installation-team/installationteam-subtasks/electrical-subtasks/electrical-subtasks.component';
 import { BtsSubtasksComponent } from './installation-team/installationteam-subtasks/bts-subtasks/bts-subtasks.component';
 import { ScorecardComponent } from './scorecard/scorecard.component';
+import {PopupModule} from 'ng2-opd-popup/components/popup/popup.module';
 
 @NgModule({
   declarations: [
@@ -70,8 +72,6 @@ import { ScorecardComponent } from './scorecard/scorecard.component';
     ElectricalSubtasksComponent,
     BtsSubtasksComponent,
     ScorecardComponent
-
-
   ],
   imports: [
     BrowserModule,
@@ -82,7 +82,8 @@ import { ScorecardComponent } from './scorecard/scorecard.component';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     ChartsModule,
-    SidebarModule
+    SidebarModule,
+    PopupModule.forRoot()
   ],
   providers: [AuthenticationServiceService, GetprojectsService, FetchtasksService],
   bootstrap: [AppComponent]
